@@ -12,6 +12,8 @@ def directors_totals(nds)
   index = 0
   row = 0
   while row < directors_database.length do
+    name = directors_database[row][:name]
+    
     
   
   # Use loops, variables and the accessing method, [], to loop through the NDS
